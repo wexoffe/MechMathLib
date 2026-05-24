@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "../../../Source/math/set/Set.h"
+#include "../../src/set/Set.h"
 
-void printSet(const Set& set) {
+void printSet(const Set& set) { 
     if(set.getSize() == 0) std::cout<< "{}\n";
     else {
         std::cout << "{";
