@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../../src/set/Set.h"
+#include "../../src/set/set.h"
 
 void printSet(const Set& set) { 
     if(set.getSize() == 0) std::cout<< "{}\n";

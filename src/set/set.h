@@ -1,3 +1,5 @@
+#pragma once
+
 class Set {
     int* elements;
     int capacity;
