@@ -1,4 +1,4 @@
-#include "Set.h"
+#include "set.h"
 
 Set::Set(int capacity) {
     this->capacity = capacity;
@@ -82,6 +82,3 @@ int Set::getSize() const {
 int Set::getCapacity() const {
     return this->capacity;
 }
-
-
-
